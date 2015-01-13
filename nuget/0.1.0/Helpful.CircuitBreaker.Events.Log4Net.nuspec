@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Helpful.CircuitBreaker.Events.Log4Net</id>
+    <version>0.1.0</version>
+    <title>Helpful.CircuitBreaker.Events.Log4Net</title>
+    <authors>RokitSalad</authors>
+    <owners>RokitSalad</owners>
+    <licenseUrl>https://github.com/RokitSalad/Helpful.CircuitBreaker.Events.Log4Net/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/RokitSalad/Helpful.CircuitBreaker.Events.Log4Net</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>An implementation of Helpful.CircuitBreaker.Events for logging breaker events to log4net.</description>
+    <releaseNotes>All log4net configuration needs to be done by the consuming app. All events are logged as warnings.</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>Circuit Breaker, Helpful, log4net</tags>
+    <dependencies>
+	  <dependency id="Helpful.CircuitBreaker.Events" version="1.0.2" />
+	  <dependency id="log4net" version="2.0.3" />
+    </dependencies>
+  </metadata>
+</package>
