@@ -2,7 +2,7 @@
 
 namespace Helpful.CircuitBreaker.Events.Log4Net
 {
-    internal class ClosedEvent : IClosedEvent
+    public class ClosedEvent : IClosedEvent
     {
         private readonly ILog _log;
 

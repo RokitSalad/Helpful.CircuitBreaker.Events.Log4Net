@@ -1,6 +1,6 @@
 ﻿namespace Helpful.CircuitBreaker.Events.Log4Net
 {
-    internal class EventFactory : IEventFactory
+    public class EventFactory : IEventFactory
     {
         private readonly IClosedEvent _closedEvent;
         private readonly IOpenedEvent _openedEvent;

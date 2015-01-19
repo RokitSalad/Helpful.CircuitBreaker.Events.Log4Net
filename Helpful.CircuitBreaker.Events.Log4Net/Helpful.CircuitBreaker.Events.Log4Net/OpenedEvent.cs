@@ -3,7 +3,7 @@ using log4net;
 
 namespace Helpful.CircuitBreaker.Events.Log4Net
 {
-    internal class OpenedEvent : IOpenedEvent
+    public class OpenedEvent : IOpenedEvent
     {
         private readonly ILog _log;
 
